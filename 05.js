@@ -15,6 +15,9 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  return array.map(i => i[propiedad]);
+
+
 }
 
 // No modifiques nada debajo de esta linea //

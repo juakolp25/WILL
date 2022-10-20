@@ -12,6 +12,13 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  let sol_num = [];
+  array.map(num =>{
+    if(typeof(num) == 'number')
+      sol_num.push(num);
+  });
+  
+  return sol_num;
 }
 
 // No modifiques nada debajo de esta linea //

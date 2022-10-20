@@ -13,7 +13,12 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
-
+  let numString = num.toString();
+  let numero_alreves = "";
+  for (let i = numString.length - 1; i >= 0; i--) {
+    numero_alreves = numero_alreves + numString[i];
+    }
+  return numero_alreves == numString;
 }
 
 // No modifiques nada debajo de esta linea //
